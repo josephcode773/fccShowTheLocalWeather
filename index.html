@@ -1,35 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Show The Local Weather</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Show The Local Weather</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="script.js"></script>
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+    <style>
+        .w3-lobster {
+            font-family: "Lobster", serif;
+        }
+    </style>
 
 </head>
 <body>
-    <div>
-        <h1>Free Code Camp Project</h1>
-        <h2>Weather App</h2>
-    </div>
 
-    <div>
-        <p id="displayLocation"></p>
+<div class="w3-container w3-center w3-display-container	w3-display-middle">
+    <div class="w3-lobster">
+        <h2 class="w3-xxxlarge">Free Code Camp Project</h2>
+        <h1 class="w3-bottombar	">Weather App</h1>
     </div>
-
     <div>
-        <p id="currentTemp"></p>
+        <p class="w3-xlarge" id="displayLocation"></p>
     </div>
-
     <div>
-        <button type="button" id="changeFtoC" onclick="changeText()">Fahrenheit/Celsius</button>
+        <p class="class="w3-xxlarge"" id="currentTemp"></p>
     </div>
-
+    <div class="w3-container">
+        <button type="button" class="w3-btn w3-hover-green w3-round-large" id="changeFtoC" onclick="changeText()">Fahrenheit/Celsius</button>
+    </div>
     <div>
         <img src="" alt="">
     </div>
-
+</div>
 
 </body>
 </html>
